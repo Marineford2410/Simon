@@ -20,6 +20,10 @@ public class Simon {
         agregarSonido();
     }
 
+    public ArrayList<Integer> getMaquina() {
+        return maquina;
+    }
+
     public void agregarSonido(){
         Random random = new Random();
         int i =  random.nextInt(4);

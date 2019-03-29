@@ -5,6 +5,7 @@ import android.media.MediaPlayer;
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
@@ -23,6 +24,25 @@ public class MainActivity extends AppCompatActivity {
 
         edtNombre = (EditText)findViewById(R.id.edtNombre);
         btnIniciar = (Button)findViewById(R.id.btnIniciar);
+
+
+        /*new CountDownTimer(10000, 1000) {
+            private int i = 0;
+            @Override
+            public void onTick(long millisUntilFinished) {
+                Log.i("Tiempo", "Tiempo: " + millisUntilFinished );
+            }
+
+            @Override
+            public void onFinish() {
+                Log.i("Tiempo", "Tiempo Finalizado" );
+                if(i < 5) {
+                    i++;
+                    this.start();
+                }
+            }
+        }.start();*/
+
 
         btnIniciar.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -6,9 +6,10 @@
     <color name="verdeOscuro">#088A08</color>
     <color name="verdeClaro">#01df01</color>
     <color name="rojoOscuro">#B40404</color>
-    <color name="rojoClaro">#FF0000</color>
+    <color name="rojoClaro">#FF2525</color>
     <color name="amarilloOscuro">#FFBF00</color>
     <color name="amarilloClaro">#ffff00</color>
     <color name="azulOscuro">#0040FF</color>
-    <color name="azulClaro">#0080ff</color>
+    <color name="azulClaro">#359FFF</color>
 </resources>
+
